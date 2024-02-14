@@ -1,0 +1,42 @@
+[workspace]
+members=["csyncify", "wasm-fetch","fusion-rt", "wasm-async-layer","simple-encryption","blitz-p2p","portal-fs","embedded-io-convert","portal-abi-reborn", "ave", "axle","wars","wars-core", "hello-world"]
+resolver="2"
+
+[workspace.dependencies]
+# Git
+waffle={git="https://github.com/portal-co/waffle-.git",branch="pr/merge-everything"}
+
+# Cargo
+anyhow = "1.0.79"
+minicoroutine = "0.1.3"
+pasts = "0.14.3"
+csyncify={path="./csyncify"}
+async-trait = "0.1.77"
+fusion-rt={path="./fusion-rt"}
+once_cell = "1.19.0"
+wasm-async-layer={path="./wasm-async-layer"}
+wasm_runtime_layer = "0.2.1"
+embedded-io-async = "0.6.1"
+futures = "0.3.30"
+embedded-io-convert={path="./embedded-io-convert"}
+embedded-io-adapters = {version="0.6.1",features=["futures-03"]}
+ed25519-dalek = "2"
+x25519-dalek = "2.0.0"
+chacha20poly1305 = "0.10.1"
+curve25519-dalek = "4.1.1"
+rand = "0.8.5"
+thiserror = "1.0.56"
+dyn-clone = "1.0.16"
+merge-io = "0.3.0"
+serde = { version = "1.0", features = ["derive"] }
+simple-encryption={path="./simple-encryption"}
+whisk = "0.12.0"
+blitz-p2p={path="./blitz-p2p"}
+portal-fs={path="./portal-fs"}
+iced-x86 = {version="1.21.0",features=["code_asm"]}
+indexmap = "2.1.0"
+id-arena = "2.2.1"
+wars-core={path="./wars-core"}
+wars={path="./wars"}
+expander = "2.0.0"
+sha3 = "0.10.8"

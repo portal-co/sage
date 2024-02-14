@@ -1,0 +1,15 @@
+[package]
+name = "simple-encryption"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chacha20poly1305.workspace = true
+curve25519-dalek.workspace = true
+ed25519-dalek.workspace = true
+rand.workspace = true
+# rust-crypto.workspace = true
+thiserror.workspace = true
+x25519-dalek.workspace = true

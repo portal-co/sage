@@ -1,0 +1,3 @@
+trait A{
+    wars::wars!("target/tcore_test_hello.wasm");
+}
