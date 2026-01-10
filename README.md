@@ -1,13 +1,14 @@
 # sage
 
 ## Description
-Project sage
+A large workspace (`sage`) containing various components (`axle`, `wars`, `blitz-p2p`). Likely a comprehensive platform or OS project ("Sage").
 
 ## Goals
-- [ ] Add project goals
+- [ ] Integrate various subsystems (networking, encryption, WASM)
+- [ ] Provide a unified runtime environment
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace setup with extensive dependencies
 
 ---
 *AI assisted*
